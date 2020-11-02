@@ -86,7 +86,7 @@ function getLength(totalChar) {
 // Passes a string to getLength and stores it in messageLength variable --
 let messageLength = getLength("Hello World");
 
-// Determines if messageLength is even or odd
+// Determines if messageLength is even or odd --
 let checkEven = messageLength % 2;
 if (checkEven == 1) {
     console.log("The world is an odd place!");
