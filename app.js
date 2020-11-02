@@ -12,7 +12,7 @@ function sayHello(msg) {
     alert("Hello World!");
 }
 
-//sayHello();
+sayHello();
 
 // Arrays for checkAge function --
 let firstNames = ["Charles", "Abby", "James", "John"];
@@ -29,7 +29,7 @@ function checkAge(checkName, theAge) {
 
 // Calls the checkAge function the length of firstNames array --
 for (let index = 0; index < firstNames.length; index++) {
-    //checkAge(firstNames[index], ages[index]);
+    checkAge(firstNames[index], ages[index]);
 }
 
 // My favorite vegetables --
@@ -75,7 +75,7 @@ let buyBooze = [person1, person2, person3, person4, person5];
 
 // Uses checkAge function to evaluate personX objects inside buyBooze array --
 for (let index = 0; index < buyBooze.length; index++) {
-    //checkAge(buyBooze[index].name, buyBooze[index].age);
+    checkAge(buyBooze[index].name, buyBooze[index].age);
 }
 
 // Function returns the length of characters in a submitted string --
